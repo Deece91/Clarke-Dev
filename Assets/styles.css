@@ -48,10 +48,7 @@ nav{
 nav a{
     font-family: Garet-Book;
     color: #fdfdff;
-}
-
-nav a:hover{
-    text-decoration: underline;
+    cursor: pointer;
 }
 
 nav a.button{
