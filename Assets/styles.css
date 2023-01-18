@@ -26,14 +26,15 @@ h1{
     font-family: Garet-Heavy;
 }
 
+section.body-container{
+    margin: 0 75px 0 75px;
+}
 
 /* header styles */
 
 header{
     display: flex;
     height: 120px;
-    padding-left: 50px;
-    padding-right: 50px;
     align-items: center;
     justify-content: space-between;
 }
