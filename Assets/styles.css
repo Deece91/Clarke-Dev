@@ -84,7 +84,7 @@ hero {
 }
 
 div.hero-text {
-    width: 95%;
+    width: 95vw;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -103,7 +103,7 @@ p.intro{
 }
 
 div.hero-icons {
-    width: 7%;
+    width: 7vw;
     height: 100%;
     display: flex;
     flex-direction: column;
