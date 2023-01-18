@@ -137,6 +137,8 @@ section.about-me{
 
 div.about-me-info{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.profile-pic{
@@ -149,10 +151,31 @@ div.bio{
     width: 50vw;
 }
 
-
-
-
 div.profile-pic img{
     width: 19.5vw;
     height: 37vh;
+}
+
+div.language{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+div.learned{
+    width: 50vw;
+}
+
+div.list{
+    display: flex;
+}
+
+li{
+    font-family: Garet-book;
+    color: #fdfdff;
+    font-size: 1vw;
+}
+
+div.learning{
+    width: 33vw;
 }
