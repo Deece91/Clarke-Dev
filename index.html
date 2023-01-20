@@ -1,127 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clarke Dev</title>
-    <link rel="stylesheet" href="./Assets/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./Assets/styles.css" />
+  </head>
+  <body>
     <section class="body-container">
-        <header>
-            <div class="logo">
-                <img src="./Assets/clarkedev - logo.png">
+      <header>
+        <div class="logo">
+          <img src="./Assets/clarkedev - logo.png" />
+        </div>
+
+        <nav>
+          <a>About</a>
+          <a>Projects</a>
+          <a>Contact</a>
+          <a class="button">CV</a>
+        </nav>
+      </header>
+
+      <hero>
+        <div class="hero-text">
+          <p>Hey, my name is</p>
+          <h1>Dan Clarke.</h1>
+          <h1 class="shadow-title">Front-End Developer & Marketer</h1>
+          <p class="intro">
+            I’m a self-taught front-end developer and marketer. I love taking
+            beautiful designs and translating them into code. <br />Currently,
+            I’m learning as much as possible and building bespoke projects along
+            the way.
+          </p>
+        </div>
+
+        <div class="hero-icons">
+          <img class="icon" src="./Assets/linkedin 2.png" />
+          <img class="icon" src="./Assets/email.png" />
+          <img class="icon" src="./Assets/instagram 2.png" />
+          <img class="icon" src="./Assets/github 2.png" />
+          <div class="line"></div>
+        </div>
+      </hero>
+
+      <section class="about-me">
+        <h1 class="section-title">About Me</h1>
+
+        <div class="about-me-info">
+          <div class="bio">
+            <p>
+              I started my career in Marketing in 2016. Creating content and
+              generating leads was fun but I always loved managing the companies
+              websites, building landing pages, tweaking copy and design to get
+              the desired outcome.
+            </p>
+
+            <p>This is what sparked my interest in Web Development.</p>
+
+            <p>
+              I started learning with SuperHi and then Codecademy. Since then I
+              have been building sites for friends, business’s and charities.
+            </p>
+
+            <p>
+              I hope to join a business and be able to develop engaging websites
+              full time.
+            </p>
+          </div>
+
+          <div class="profile-pic">
+            <img src="./Assets/me.2.png" />
+          </div>
+        </div>
+
+        <div class="language">
+          <div class="learned">
+            <p>
+              Here a few languages & frameworks I have used to build websites
+            </p>
+            <div class="list">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <ul>
+                <li>jQuery</li>
+                <li>Barba</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="learning">
+            <p>Here are a few languages I'm currently learning</p>
+            <ul>
+              <li>React</li>
+              <li>Typescript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h1 class="section-title">Projects</h1>
+
+        <div class="project-left">
+          <div class="project-container-left">
+            <div class="project-text">
+              <h1 class="project-title">The Hexagons</h1>
+              <div class="project-description">
+                <p>
+                  Although they are a ficitonal band. The Hexagons released a new album and needed a
+                  landing page to promote it, along with other work. The challnege here was creating the Javascript
+                  to be able to filter their albums,singles and vynls
+                </p>
+              </div>
+
+              <p class="tech-used">VS Code, HTML, CSS, Javascript & jQuery</p>
             </div>
 
-            <nav>
-                <a>About</a>
-                <a>Projects</a>
-                <a>Contact</a>
-                <a class="button">CV</a>
-            </nav>
-        </header>
+            <a class="button">View Project</a>
+          </div>
 
-        <hero>
+          <div class="project-container-right">
+            <img src="./Assets/Hexagons laptop-min.jpg"/>
+          </div>
+        </div>
 
-            <div class="hero-text">
-                <p>Hey, my name is</p>
-                <h1>Dan Clarke.</h1>
-                <h1 class="shadow-title">Front-End Developer & Marketer</h1>
-                <p class="intro">I’m a self-taught front-end developer and marketer. 
-                    I love taking beautiful designs and translating them into code. 
-                    <br>Currently, I’m learning as much as possible and building bespoke projects along the way.</p>
+        <div class="project-right">
+
+          <div class="pr-container-left">
+            <img src="./Assets/canvas-min.png">
+          </div>
+
+          <div class="pr-container-right">
+            <div class="pr-project-text">
+              <h1 class="pr-project-title">Canvas Magazine</h1>
+              <div class="pr-project-description">
+                <p>Canvas magazine is a hiking blog. In this project I created nice scroll effects up and down the page
+                  nice effects on images and page transitions when visiting procudt pages or the blogs. These effects were built
+                  using GSAP timelines, Javascript plugings such as imagesLoaded and using the Barba framework
+                </p>
+              </div>
+
+              <p class="pr-tech-used">VS Code, HTML, CSS, Javascript & Barba</p>
             </div>
 
-            <div class="hero-icons">
-                <img class="icon" src="./Assets/linkedin 2.png">
-                <img class="icon" src="./Assets/email.png">
-                <img class="icon" src="./Assets/instagram 2.png">
-                <img class="icon" src="./Assets/github 2.png">
-                <div class="line"></div>
+            <a class="button">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-left">
+          <div class="project-container-left">
+            <div class="project-text">
+              <h1 class="project-title">Esmei</h1>
+              <div class="project-description">
+                <p>
+                  Esmei is an online stoor selling bandanas, bags and other fasion accesories. 
+                  The goal of this project was to create
+                  another product menu, filter the products and a resposive design.
+                </p>
+              </div>
+
+              <p class="tech-used">VS Code, HTML, CSS, Javascript & jQuery</p>
             </div>
 
+            <a class="button">View Project</a>
+          </div>
 
-        </hero>
+          <div class="project-container-right">
+            <img src="./Assets/esmei-min.png" />
+          </div>
+        </div>
 
-        <section class="about-me">
+        <div class="project-right">
 
-            <h1 class="section-title">About Me</h1>
+          <div class="pr-container-left">
+            <img src="./Assets/wanderers-min.png">
+          </div>
 
-            <div class="about-me-info">
-                <div class="bio">
-                    <p>I started my career in Marketing in 2016. Creating content and generating leads was fun but I always loved managing the companies websites, building landing pages, tweaking copy and design to get the desired outcome.</p>
+          <div class="pr-container-right">
+            <div class="pr-project-text">
+              <h1 class="pr-project-title">Wanderers</h1>
+              <div class="pr-project-description">
+                <p>Wanderers is a photo travel blog. This project really tested my Javascript skills. I created fades that work
+                  with the 'previous' and 'next' buttons. Again I used Barba to achieve the page transitions.
+                </p>
+              </div>
 
-                    <p>This is what sparked my interest in Web Development.</p>
-                        
-                    <p>I started learning with SuperHi and then Codecademy. Since then I have been building sites for friends, business’s and charities.</p>
-                        
-                    <p>I hope to join a business and be able to develop engaging websites full time.</p>
-                </div>
-
-                <div class="profile-pic">
-                    <img src="./Assets/me.2.png">
-                </div>
+              <p class="pr-tech-used">VS Code, HTML, CSS, Javascript & Barba</p>
             </div>
 
-            <div class="language">
-                <div class="learned">
-                    <p>Here a few languages & frameworks I have used to build websites</p>
-                    <div class="list">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                        </ul>
-                        <ul>
-                            <li>jQuery</li>
-                            <li>Barba</li>
-                        </ul>
-                    </div>
-                </div>
+            <a class="button">View Project</a>
+          </div>
+        </div>
+      </section>
 
-                <div class="learning">
-                    <p>Here are a few languages I'm currently learning</p>
-                    <ul>
-                        <li>React</li>
-                        <li>Typescript</li>
-                    </ul>
-                </div>
+      <section class="real-projects">
+        <h1 class="section-title">Real World Projects</h1>
+
+        <div class="real-projects-container">
+
+          <div class="rp-card">
+            <div class="card-content">
+              <img class="rp-image" src="./Assets/Commuknitty Laptop-min.png">
+              <h1>Commuknitty</h1>
+              <p>A charity that helps young people from underrepresented communities break into the fashion industry. I built their first site along with a designer.</p>
+              <a class="button">View Project</a>
             </div>
-        </section>
+          </div>
 
-        <section class="projects">
-
-            <h1 class="section-title">Projects</h1>
-
-            <div class="project-left">
-                
-                <div class="project-container-left">
-
-                    <div class="project-text">
-                        <h1 class="project-title">Project Title in here</h1>
-                        <div class="project-description">
-                        <p>A description of the project I have built would be inserted here, at the moment I'm just thinking about wihch projects I want to feature, in order to put my best foot foward when applying for jobs</p>
-                        </div>
-
-                        <p class="tech-used">VS Code, HTML, CSS & Javascript & jQuery</p>
-                    </div>
-
-                    <a class="button">View Project</a>
-
-                </div>
-
-                <div class="project-container-right">
-
-                    <img src="./Assets/Commuknitty Laptop-min.png">
-
-                </div>
-
+          <div class="rp-card">
+            <div class="card-content">
+              <img class="rp-image" src="./Assets/h360+-min.png">
+              <h1>HIVE360 Plus</h1>
+              <p>HIVE360 launched a new product, and needed a bespoke landing page to drive traffic and highlight USP's of the solution.</p>
+              <a class="button">View Project</a>
             </div>
+          </div>
 
-        </section>
+          <div class="rp-card">
+            <div class="card-content">
+              <img class="rp-image" src="./Assets/How To Hive Laptop-min.jpg">
+              <h1>How To Hive</h1>
+              <p>HIVE360's app users where flooding their business site looking for answers on how to use the app. I built a site to help them find them.</p>
+              <a class="button">View Project</a>
+            </div>
+          </div>
 
-
-    </section> 
-</body>
+        </div>
+      </section>
+    </section>
+  </body>
 </html>
