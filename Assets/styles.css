@@ -334,3 +334,39 @@ img.rp-image{
     border-radius: 10px;
 }
 
+/* contact section*/
+
+section.contact{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contact-me{
+    text-align: center;
+}
+
+div.contact-me h1{
+    font-size: 5vw;
+    margin-bottom: 7.5vh;
+}
+
+div.contact-me p{
+    width: 55vw;
+    font-size: 1.5vw;
+    margin-bottom: 7.5vh;
+}
+
+/*footer section */
+
+footer{
+    height: 10vh;
+}
+
+footer p{
+    text-align: center;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+}
