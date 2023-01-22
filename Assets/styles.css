@@ -37,7 +37,7 @@ h1{
 }
 
 section.body-container{
-    margin: 0 75px 0 75px;
+    margin: 0 3.75vw;
 }
 
 .button{
@@ -147,8 +147,8 @@ img.icon{
 }
 
 div.line{
-    width: 2px;
-    height: 150px;
+    width: 0.1vw;
+    height: 15vh;
     background-color: #C6C5B9;
 }
 
@@ -162,7 +162,6 @@ section.about-me{
 div.about-me-info{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 div.profile-pic{
@@ -183,7 +182,7 @@ div.profile-pic img{
 div.language{
     display: flex;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 5.5vh;
 }
 
 div.learned{
@@ -366,11 +365,10 @@ div.contact-me p{
 
 footer{
     height: 10vh;
-}
+} 
 
 footer p{
     text-align: center;
     width: 15vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
 }
