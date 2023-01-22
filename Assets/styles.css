@@ -37,8 +37,8 @@ h1 {
   color: #d9d9d9;
 }
 
-section.body-container {
-  margin: 0 75px 0 75px;
+section.body-container{
+    margin: 0 3.75vw;
 }
 
 .button {
@@ -145,10 +145,10 @@ img.icon {
   width: 30px;
 }
 
-div.line {
-  width: 2px;
-  height: 150px;
-  background-color: #c6c5b9;
+div.line{
+    width: 0.1vw;
+    height: 15vh;
+    background-color: #C6C5B9;
 }
 
 /* about me */
@@ -158,10 +158,9 @@ section.about-me {
   height: 80vh;
 }
 
-div.about-me-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+div.about-me-info{
+    display: flex;
+    align-items: center;
 }
 
 div.profile-pic {
@@ -179,10 +178,10 @@ div.profile-pic img {
   height: 37vh;
 }
 
-div.language {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 55px;
+div.language{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.5vh;
 }
 
 div.learned {
@@ -363,13 +362,12 @@ div.contact-me p {
 
 /*footer section */
 
-footer {
-  height: 10vh;
-}
+footer{
+    height: 10vh;
+} 
 
-footer p {
-  text-align: center;
-  width: 15vw;
-  margin-left: auto;
-  margin-right: auto;
+footer p{
+    text-align: center;
+    width: 15vw;
+    margin-inline: auto;
 }
