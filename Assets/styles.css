@@ -58,6 +58,15 @@ section.body-container {
   transition: 0.5s;
 }
 
+/* button styles responsive */
+
+@media (max-width: 768px) {
+  .button {
+    background-color: #c6c5b9;
+    color: #393d3f;
+  }
+}
+
 /* header styles */
 
 header {
@@ -179,6 +188,10 @@ div.line {
     height: 100vh;
   }
 
+  div.hero-text{
+    width: 92vw;
+  }
+
   div.hero-text p{
     font-size: 2vw;
     width: 95vw;
@@ -254,7 +267,7 @@ div.learning {
 @media (max-width: 768px) {
 
   section.about-me{
-    height: 100vh;
+    height: auto;
   }
 
   h1.section-title{
@@ -266,7 +279,7 @@ div.learning {
   }
 
   div.bio {
-    width: 60%;
+    width: 70%;
   }
 
     div.bio p{
@@ -345,6 +358,62 @@ div.project-container-right img {
 
 /* projects -left responsive */
 
+@media (max-width: 768px) {
+  
+  section.projects {
+    margin-top: 15vh;
+  }
+
+  h1.section-title {
+    font-size: 5.5vw;
+  }
+
+  div.project-left{
+      height: 100vh;
+      padding: 0;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+
+  div.project-container-left{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+  }
+
+  h1.project-title{
+      font-size: 5vw;
+  }
+
+  div.project-description{
+      width: 100%;
+      border: 1px solid #c6c5b9;
+      background-color: transparent;
+  }
+
+  div.project-description p{
+      font-size: 1.8vw;
+      color: #fdfdff;
+  }
+
+  p.tech-used{
+    font-size: 1.5vw;
+}
+
+div.project-container-right{
+  position: static;
+}
+
+div.project-container-right img{
+  width: 55vw;
+}
+
+}
 
 /* projects on the right */
 
@@ -401,6 +470,64 @@ div.pr-project-text .pr-tech-used {
   margin-bottom: 3vh;
 }
 
+/* project right responsive */
+
+@media (max-width: 768px) {
+
+  div.project-right{
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  div.pr-container-left {
+    position: static;
+  }
+
+  div.pr-container-left img{
+    width: 55vw;
+  }
+
+  div.pr-container-right {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+  }
+
+  div.pr-project-text {
+    text-align: center;
+  }
+
+  h1.pr-project-title {
+    font-size: 5vw;
+  }
+
+  div.pr-project-description {
+    border: 1px solid #c6c5b9;
+    background-color: transparent;
+  }
+
+  div.pr-project-description p{
+    font-size: 1.8vw;
+    color: #fdfdff;
+  }
+
+  p.pr-tech-used {
+    font-size: 1.5vw;
+  }
+
+  div.pr-container-right .button{
+    position: static;
+  }
+
+}
 /* Real World Projects*/
 
 div.real-projects-container {
@@ -440,7 +567,7 @@ img.rp-image {
 @media (max-width: 768px) {
 
   section.real-projects{
-    
+    margin-top: 15vh;
     display: flex;
     flex-direction: column;
   }
@@ -462,7 +589,8 @@ img.rp-image {
   }
 
   div.card-content img{
-    width: auto;
+    width: 55vw;
+    height: auto;
   }
 
   div.card-content h1{
@@ -470,7 +598,7 @@ img.rp-image {
   }
 
   div.card-content p{
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
 
 }
