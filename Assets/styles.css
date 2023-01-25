@@ -186,6 +186,8 @@ div.line {
 
   hero{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   div.hero-text{
@@ -206,6 +208,15 @@ div.line {
   }
 
   div.hero-icons{
+    position: static;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 20%;
+  }
+
+  div.line{
     display: none;
   }
 
