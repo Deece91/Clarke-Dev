@@ -210,8 +210,8 @@ div.line {
   div.hero-icons{
     position: static;
     flex-direction: row;
-    width: 20vw;
-    justify-content: flex-start;
+    width: 30vw;
+    justify-content: space-between;
     align-items: flex-start;
     height: 20%;
   }
