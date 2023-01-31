@@ -237,6 +237,8 @@ div.project-text .tech-used{
 div.project-container-right{
     position: absolute;
     right: 15vw;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 div.project-container-right:hover{
@@ -248,6 +250,9 @@ div.project-container-right img{
     width: 35vw;
     height: 45vh; 
     border-radius: 10px;
+    transition: transform .8s;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 div.project-container-right img:hover{
@@ -268,6 +273,8 @@ div.project-right{
 div.pr-container-left{
     position: absolute;
     left: 10.5vw;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 div.pr-container-left:hover{
@@ -279,6 +286,9 @@ div.pr-container-left img{
     width: 35vw;
     height: 45vh;
     border-radius: 10px;
+    transition: transform .8s;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 div.pr-container-left img:hover{
