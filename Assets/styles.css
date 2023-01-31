@@ -626,8 +626,8 @@ div.project-container-right img:hover{
   }
 
   div.project-container-right img {
-    width: 75vw;
-    height: auto;
+    width: 75vw !important;
+    height: auto !important;
   }
 
   div.project-description{
@@ -636,8 +636,7 @@ div.project-container-right img:hover{
   }
 
 div.project-container-right{
-    position: absolute;
-    right: 15vw;
+    position: static;
     transform: scale(1);
     overflow: hidden;
 }
