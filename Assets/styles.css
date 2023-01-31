@@ -571,8 +571,8 @@ div.project-container-right img:hover{
   }
 
   div.project-left {
-    height: 100vh;
-    margin-top: 0;
+    height: 100%;
+    margin-top: 10vh;
     padding: 0;
     display: flex;
     flex-direction: column-reverse;
@@ -622,10 +622,6 @@ div.project-container-right img:hover{
     font-size: 7vw;
   }
 
-  div.project-left {
-    height: 100vh;
-    margin-top: 0;
-  }
 
   div.project-container-right img {
     width: 75vw !important;
@@ -673,13 +669,6 @@ p.tech-used {
 
 }
 
-@media (max-width: 400px) {
-
-  div.project-left{
-    height: 85vh;
-  }
-
-}
 
 /* projects right */
 
@@ -765,7 +754,8 @@ div.pr-project-text .pr-tech-used {
 @media (max-width: 768px) {
   div.project-right {
     padding: 0;
-    height: 100vh;
+    height: 100%;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -819,9 +809,6 @@ div.pr-project-text .pr-tech-used {
 
 @media (max-width: 480px) {
 
-  div.project-right{
-    height: 100vh;
-  }
 
   div.pr-container-left img {
     width: 75vw;
@@ -842,13 +829,6 @@ div.pr-project-text .pr-tech-used {
   }
 }
 
-@media (max-width: 400px) {
-
-  div.project-right{
-    height: 85vh;
-  }
-
-}
 
 /* Real World Projects*/
 
