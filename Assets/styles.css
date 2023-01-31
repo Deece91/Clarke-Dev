@@ -534,6 +534,9 @@ div.project-text .tech-used {
 div.project-container-right {
   position: absolute;
   right: 15vw;
+  transform: scale(1);
+  overflow: hidden;
+  transition: transform .8s;
 }
 
 div.project-container-right:hover{
@@ -545,6 +548,9 @@ div.project-container-right img {
   width: 35vw;
   height: 45vh;
   border-radius: 10px;
+  transition: transform .8s;
+  transform: scale(1);
+  overflow: hidden;
 }
 
 div.project-container-right img:hover{
