@@ -622,9 +622,21 @@ div.project-container-right img {
     font-size: 3.5vw;
   }
 
-  p.tech-used {
-    font-size: 3vw;
-  }
+div.project-container-right:hover{
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+div.project-container-right img{
+    width: 35vw;
+    height: 45vh; 
+    border-radius: 10px;
+}
+
+div.project-container-right img:hover{
+  transform: scale(1.5);
+  border-radius: 10px;
+  transition: transform .8s;
 }
 
 /* projects on the right */
@@ -643,17 +655,28 @@ div.pr-container-left {
   left: 10.5vw;
 }
 
-div.pr-container-left img {
-  width: 35vw;
-  height: 45vh;
+div.pr-container-left:hover{
+  overflow: hidden;
   border-radius: 10px;
 }
 
-div.pr-container-right {
-  width: 40vw;
-  position: absolute;
-  z-index: 10;
-  right: 15vw;
+div.pr-container-left img{
+    width: 35vw;
+    height: 45vh;
+    border-radius: 10px;
+}
+
+div.pr-container-left img:hover{
+  transform: scale(1.5);
+  border-radius: 10px;
+  transition: transform .8s;
+}
+
+div.pr-container-right{
+    width: 40vw;
+    position: absolute;
+    z-index: 10;
+    right: 15vw;
 }
 
 h1.pr-project-title {
