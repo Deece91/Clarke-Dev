@@ -673,6 +673,14 @@ p.tech-used {
 
 }
 
+@media (max-width: 400px) {
+
+  div.project-left{
+    height: 85vh;
+  }
+
+}
+
 /* projects right */
 
 div.project-right{
@@ -832,6 +840,14 @@ div.pr-project-text .pr-tech-used {
   p.pr-tech-used {
     font-size: 3vw;
   }
+}
+
+@media (max-width: 400px) {
+
+  div.project-right{
+    height: 85vh;
+  }
+
 }
 
 /* Real World Projects*/
