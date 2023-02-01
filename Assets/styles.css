@@ -306,12 +306,11 @@ div.line {
 }
 
 @media (max-width: 480px) {
-
   div.hero-text p {
     font-size: 3.8vw;
   }
 
-  div.hero-text .intro{
+  div.hero-text .intro {
     width: 85vw;
     line-height: 1.5;
   }
@@ -408,14 +407,14 @@ div.learning {
   div.profile-pic img {
     width: 100%;
     height: auto;
-    
   }
 
   div.language {
     flex-direction: column;
   }
 
-  div.learned, div.learning{
+  div.learned,
+  div.learning {
     width: 70vw;
   }
 
@@ -465,7 +464,7 @@ div.learning {
     flex-direction: column;
   }
 
-  div.learned ul{
+  div.learned ul {
     text-align: left;
   }
 
@@ -482,16 +481,15 @@ div.learning {
     display: flex;
     flex-direction: column;
   }
-  
-  div.learning ul{
+
+  div.learning ul {
     text-align: left;
   }
-
 }
 
 /* projects section */
 
-section.projects{
+section.projects {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -536,10 +534,10 @@ div.project-container-right {
   right: 15vw;
   transform: scale(1);
   overflow: hidden;
-  transition: transform .8s;
+  transition: transform 0.8s;
 }
 
-div.project-container-right:hover{
+div.project-container-right:hover {
   overflow: hidden;
   border-radius: 10px;
 }
@@ -548,15 +546,15 @@ div.project-container-right img {
   width: 35vw;
   height: 45vh;
   border-radius: 10px;
-  transition: transform .8s;
+  transition: transform 0.8s;
   transform: scale(1);
   overflow: hidden;
 }
 
-div.project-container-right img:hover{
+div.project-container-right img:hover {
   transform: scale(1.5);
   border-radius: 10px;
-  transition: transform .8s;
+  transition: transform 0.8s;
 }
 
 /* projects -left responsive */
@@ -622,57 +620,54 @@ div.project-container-right img:hover{
     font-size: 7vw;
   }
 
-
   div.project-container-right img {
     width: 75vw !important;
     height: auto !important;
   }
 
-  div.project-description{
+  div.project-description {
     padding-left: 2vw;
     padding-right: 2vw;
   }
 
-div.project-container-right{
+  div.project-container-right {
     position: static;
     transform: scale(1);
     overflow: hidden;
-}
+  }
 
-div.project-container-right:hover{
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-div.project-container-right img{
-    width: 35vw;
-    height: 45vh; 
+  div.project-container-right:hover {
+    overflow: hidden;
     border-radius: 10px;
-    transition: transform .8s;
+  }
+
+  div.project-container-right img {
+    width: 35vw;
+    height: 45vh;
+    border-radius: 10px;
+    transition: transform 0.8s;
     transform: scale(1);
     overflow: hidden;
-}
+  }
 
-div.project-container-right img:hover{
-  transform: scale(1.5);
-  border-radius: 10px;
-  transition: transform .8s;
-}
+  div.project-container-right img:hover {
+    transform: scale(1.5);
+    border-radius: 10px;
+    transition: transform 0.8s;
+  }
 
-div.project-description p {
-  font-size: 3vw;
-}
+  div.project-description p {
+    font-size: 3vw;
+  }
 
-p.tech-used {
-  font-size: 3vw;
+  p.tech-used {
+    font-size: 3vw;
+  }
 }
-
-}
-
 
 /* projects right */
 
-div.project-right{
+div.project-right {
   height: 60vh;
   width: 100%;
   height: 60vh;
@@ -682,11 +677,11 @@ div.project-right{
   align-items: center;
 }
 
-div.pr-container-left{
-    position: absolute;
-    left: 10.5vw;
-    transform: scale(1);
-    overflow: hidden;
+div.pr-container-left {
+  position: absolute;
+  left: 10.5vw;
+  transform: scale(1);
+  overflow: hidden;
 }
 
 div.pr-container-left {
@@ -694,31 +689,31 @@ div.pr-container-left {
   left: 10.5vw;
 }
 
-div.pr-container-left:hover{
+div.pr-container-left:hover {
   overflow: hidden;
   border-radius: 10px;
 }
 
-div.pr-container-left img{
-    width: 35vw;
-    height: 45vh;
-    border-radius: 10px;
-    transition: transform .8s;
-    transform: scale(1);
-    overflow: hidden;
+div.pr-container-left img {
+  width: 35vw;
+  height: 45vh;
+  border-radius: 10px;
+  transition: transform 0.8s;
+  transform: scale(1);
+  overflow: hidden;
 }
 
-div.pr-container-left img:hover{
+div.pr-container-left img:hover {
   transform: scale(1.5);
   border-radius: 10px;
-  transition: transform .8s;
+  transition: transform 0.8s;
 }
 
-div.pr-container-right{
-    width: 40vw;
-    position: absolute;
-    z-index: 10;
-    right: 15vw;
+div.pr-container-right {
+  width: 40vw;
+  position: absolute;
+  z-index: 10;
+  right: 15vw;
 }
 
 h1.pr-project-title {
@@ -808,14 +803,12 @@ div.pr-project-text .pr-tech-used {
 }
 
 @media (max-width: 480px) {
-
-
   div.pr-container-left img {
     width: 75vw;
     height: auto;
   }
 
-  div.pr-project-description{
+  div.pr-project-description {
     padding-left: 2vw;
     padding-right: 2vw;
   }
@@ -828,7 +821,6 @@ div.pr-project-text .pr-tech-used {
     font-size: 3vw;
   }
 }
-
 
 /* Real World Projects*/
 
@@ -905,8 +897,7 @@ img.rp-image {
 }
 
 @media (max-width: 480px) {
-
-  section.real-projects{
+  section.real-projects {
     margin-top: 15vh;
   }
 
