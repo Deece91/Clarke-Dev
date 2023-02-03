@@ -827,6 +827,7 @@ div.pr-project-text .pr-tech-used {
 div.real-projects-container {
   height: 60vh;
   margin-top: 7vh;
+  margin-bottom: 20vh;
   position: relative;
   right: 2vw;
   display: flex;
