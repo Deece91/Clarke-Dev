@@ -544,7 +544,7 @@ div.project-container-right:hover {
 
 div.project-container-right img {
   width: 35vw;
-  height: 45vh;
+  height: auto;
   border-radius: 10px;
   transition: transform 0.8s;
   transform: scale(1);
@@ -696,7 +696,7 @@ div.pr-container-left:hover {
 
 div.pr-container-left img {
   width: 35vw;
-  height: 45vh;
+  height: auto;
   border-radius: 10px;
   transition: transform 0.8s;
   transform: scale(1);
@@ -825,9 +825,9 @@ div.pr-project-text .pr-tech-used {
 /* Real World Projects*/
 
 div.real-projects-container {
-  height: 60vh;
+  height: 60%;
   margin-top: 7vh;
-  margin-bottom: 20vh;
+  margin-bottom: 15vh;
   position: relative;
   right: 2vw;
   display: flex;
@@ -853,7 +853,7 @@ div.card-content h1 {
 
 img.rp-image {
   width: 20vw;
-  height: 25vh;
+  height: auto;
   border-radius: 10px;
 }
 
